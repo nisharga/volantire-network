@@ -1,0 +1,22 @@
+.Organize img {
+    width: 45%;
+    margin-top: 25px;
+    float: left;
+}
+.metaDataOrganize {
+	width: 50%;
+	float: right;
+}
+
+.TimeDate {
+    margin-top: -10px;
+    opacity: 0.8;
+  }
+  .cancel {
+    background: powderblue;
+    color: grey;
+    padding: 8px 20px;
+    float: right;
+    margin-top: 15px;
+    border-radius: 5px;
+  }

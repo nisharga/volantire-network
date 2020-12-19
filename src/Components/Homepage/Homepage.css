@@ -1,0 +1,81 @@
+
+.logo img {
+    width: 150px;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+  .navbar ul li {
+    display: inline-block;
+  }
+  .navbar ul li a{
+    padding: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    margin-right: 12px;
+  }
+  
+a.register {
+    background: blue;
+    color: #fff !important;
+    border-radius: 5px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+  .navbar {
+    margin-top: 28px;
+  }
+  a.admin {
+    background: black;
+    color: #fff !important;
+    border-radius: 5px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+
+  .homepage {
+    background-image: url(/static/media/refuseShelter.ddcd5a3a.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 500px;
+    margin-top: -100px !important; 
+}
+/* .navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+  } */
+
+.Hometitle {
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .homepage .homeForm input[type="text"] {
+    width: 50%;
+    padding: 15px; 
+    border: none; 
+}
+.homepage .homeForm input[type="submit"] {
+  width: 10%;
+  cursor: pointer;
+	background: blue;
+	color: #fff;
+	padding: 15px;
+	border: none; 
+	border-radius: 0 5px 5px 0;
+}
+.homepage form {
+	margin: 0 auto;
+	width: 70%;
+  text-align: center;
+  margin-bottom: 40px;
+}
